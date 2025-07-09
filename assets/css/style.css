@@ -1,21 +1,11 @@
 .bg-box {
   width: 1200px;
-  height: 600px;
-  padding: 50px 0;
+  height: 800px;
+  background: 
+          url("../images/green-png-44873.png") bottom / 300px repeat-x,
+          url("../images/58eb07b830eab15b56162788.png") top right / 40px repeat-y,
+          url("../images/lamp-png-34914.png") top / 60px repeat-x,
+          url("../images/3F3F.webp") top left / 40px repeat-y,
+          url("../images/pole-zelen-trava-dom-derevya.webp") center / auto no-repeat;
   background-color: darkgreen;
-  background-image: url("../images/pole-zelen-trava-dom-derevya.webp");
-  background-size: auto; 
-  background-repeat: no-repeat;
-  background-position: center;  
-}
-
-.bg-box::before {
-  content: "";
-  display: block;
-  height: 100%;
-  background-image: url("../images/green-png-44873.png");
-  background-repeat: no-repeat;
-  background-size: 95%;
-  background-position: bottom;
-  position: relative;
 }
